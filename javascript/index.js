@@ -37,6 +37,18 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+  //Cologne
+  let cologneElement = document.querySelector("#cologne");
+  if (cologneElement) {
+    let cologneDateElement = cologneElement.querySelector(".date");
+    let cologneTimeElement = cologneElement.querySelector(".time");
+    let cologneTime = moment().tz("Europe/Paris");
+
+    cologneDateElement.innerHTML = cologneTime.format("MMMM Do YYYY");
+    cologneTimeElement.innerHTML = cologneTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 updateTime();
