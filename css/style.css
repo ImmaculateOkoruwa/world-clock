@@ -63,3 +63,15 @@ footer {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
 }
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 25px;
+  }
+  .time {
+    font-size: 25px;
+  }
+  small {
+    font-size: 20px;
+  }
+}
