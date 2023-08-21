@@ -1,6 +1,14 @@
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: blue;
 }
 
 h1 {
@@ -61,7 +69,7 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 @media (max-width: 900px) {
